@@ -32,9 +32,7 @@ def map_product_name(kode):
         "ST300": "Emas Muda 6K", "ST375": "Emas Muda 8K",
         "ST420": "Emas Muda 9K", "ST700": "Emas Tua 16K",
         "ST750": "Emas Tua 17K", "STNC": "Emas Muda 8K",
-        "STOB": "Emas Muda 6K", "STSM": "Emas Muda SM",
-        "6k" : "GK KERONCONG BTIK BAMBU PLAT PTH 4PCS", 
-        "8k" : "GK CATOK CARTIER"
+        "STOB": "Emas Muda 6K", "STSM": "Emas Muda SM"
     }
     if kode in mapping:
         return mapping[kode]
